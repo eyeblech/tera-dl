@@ -31,7 +31,7 @@ To authenticate with Terabox, you need the `ndus` cookie. Edit the script after 
 ```bash
 git clone https://github.com/eyeblech/tera-dl.git
 cd tera-dl
-pip install tqdm
+pip install tqdm requests
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ Enter choice [0]:
 Download starts with progress bar; resumes if interrupted.
 
 ## Acknowledgments
-Powered by [Terabox-Web](https://github.com/Itz-Ashlynn/Terabox-Web) by Itz-Ashlynn—core API for links. Star it! 🌟
+Huge thanks to [@Itz-Ashlynn](https://github.com/Itz-Ashlynn) for [Terabox-Web](https://github.com/Itz-Ashlynn/Terabox-Web)—the API that makes this all possible. Star the repo if it helps! 🌟
 
 ## License
 MIT—see [LICENSE](LICENSE).
